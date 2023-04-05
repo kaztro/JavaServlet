@@ -66,6 +66,11 @@ public class BasicServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h1>Mensaje desde método doPost</h1>");
+        
+        String nombre = request.getParameter("nombre");
+        String apellido = request.getParameter("apellido");
+        
+        out.println("Nombre: " + nombre);
+        out.println("Apellido: " + apellido);
     }
 }

@@ -12,12 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="BasicServlet" method="GET">
-            <button type="submit">Get</button>
-        </form>
-        <br>
+        <h1>Datos del estudiante</h1>
         <form action="BasicServlet" method="POST">
-            <button type="submit">Post</button>
+            <p><label>Nombre: </label> <input type="text" name="nombre"></p>
+            <p><label>Apelido: </label> <input type="text" name="apellido"></p>
+            <button type="submit    ">Enviar</button>
         </form>
     </body>
 </html>
