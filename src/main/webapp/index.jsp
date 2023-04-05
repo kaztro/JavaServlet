@@ -18,5 +18,11 @@
             <p><label>Apelido: </label> <input type="text" name="apellido"></p>
             <button type="submit    ">Enviar</button>
         </form>
+        <br>
+        
+        <h1>Lista de estudiantes</h1>
+        <form action="BasicServlet" method="GET">
+            <button>Mostrar estudiantes</button>
+        </form>
     </body>
 </html>
